@@ -1,0 +1,44 @@
+"2021-11-19 11:02:42 - Starting BePilotApplication using Java 11.0.13 on DESKTOP-88FAOV3 with PID 12016 (D:\Project\be-pilot-project\be-pilot\target\classes started by EdsoLabs in D:\Project\be-pilot-project\be-pilot)
+""2021-11-19 11:02:42 - No active profile set, falling back to default profiles: default
+""2021-11-19 11:02:43 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2021-11-19 11:02:43 - Finished Spring Data repository scanning in 68 ms. Found 10 JPA repository interfaces.
+""2021-11-19 11:02:43 - Tomcat initialized with port(s): 8080 (http)
+""2021-11-19 11:02:43 - Starting service [Tomcat]
+""2021-11-19 11:02:43 - Starting Servlet engine: [Apache Tomcat/9.0.54]
+""2021-11-19 11:02:43 - Initializing Spring embedded WebApplicationContext
+""2021-11-19 11:02:43 - Root WebApplicationContext: initialization completed in 1097 ms
+""2021-11-19 11:02:44 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2021-11-19 11:02:44 - HHH000412: Hibernate ORM core version 5.4.32.Final
+""2021-11-19 11:02:44 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2021-11-19 11:02:44 - HikariPool-1 - Starting...
+""2021-11-19 11:02:44 - HikariPool-1 - Start completed.
+""2021-11-19 11:02:44 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+""2021-11-19 11:02:45 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2021-11-19 11:02:45 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2021-11-19 11:02:45 - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@32d3b965, org.springframework.security.web.context.SecurityContextPersistenceFilter@c6653e, org.springframework.security.web.header.HeaderWriterFilter@41962299, org.springframework.web.filter.CorsFilter@7fb2645b, org.springframework.security.web.authentication.logout.LogoutFilter@4b6fc231, com.esdo.bepilot.Util.CustomJwtAuthenticationFilter@355ce6a6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@788fa91f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7fba30fe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16160a37, org.springframework.security.web.session.SessionManagementFilter@182469d0, org.springframework.security.web.access.ExceptionTranslationFilter@363ee411, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69c335c4]
+""2021-11-19 11:02:45 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+""2021-11-19 11:02:45 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2021-11-19 11:02:46 - Tomcat started on port(s): 8080 (http) with context path ''
+""2021-11-19 11:02:46 - Context refreshed
+""2021-11-19 11:02:46 - Found 1 custom documentation plugin(s)
+""2021-11-19 11:02:46 - Scanning for api listing references
+""2021-11-19 11:02:46 - Started BePilotApplication in 3.62 seconds (JVM running for 4.222)
+""2021-11-19 11:03:31 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-11-19 11:03:31 - Initializing Servlet 'dispatcherServlet'
+""2021-11-19 11:03:31 - Completed initialization in 4 ms
+""2021-11-19 11:03:38 - com.esdo.bepilot.Controller.AuthController: start login
+	Param
+		AuthRequest(email=admin@gmail.com, password=admin123)
+""2021-11-19 11:03:38 - Fri Nov 19 11:03:38 ICT 2021 : com.esdo.bepilot.Service.Implement.AuthServiceImpl: finish login
+""2021-11-19 11:04:00 - No mapping for GET /log.txt
+""2021-11-19 11:04:06 - com.esdo.bepilot.Controller.EmployeeController: start findAllEmployee
+	Param
+		1
+		10
+		null
+""2021-11-19 11:04:06 - Fri Nov 19 11:04:06 ICT 2021 : com.esdo.bepilot.Service.Implement.EmployeeServiceImpl: finish findAllEmployee
+""2021-11-19 11:06:00 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2021-11-19 11:06:00 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2021-11-19 11:06:00 - HikariPool-1 - Shutdown initiated...
+""2021-11-19 11:06:00 - HikariPool-1 - Shutdown completed.
+"
